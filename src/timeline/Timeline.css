@@ -1,0 +1,12 @@
+.timeline {
+  display: flex;
+  flex-direction: row;
+}
+
+.timeline__left {
+  flex: 0.7; /* membagi timeline utama menjadi 70% */
+}
+
+.timeline__right {
+  flex: 0.3; /* membagi timeline right / suggestion menjadi 30% */
+}

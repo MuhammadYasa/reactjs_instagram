@@ -1,0 +1,46 @@
+.sidenav {
+  position: fixed; /* posisi fixed, agar ketika di geser, tidak akan berubah posisinya */
+  display: flex;
+  flex-direction: column; /* karena mau menampilkan icon"nya ke arah bawah urutannya */
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.sidenav__logo {
+  width: 120px;
+  margin: 25px;
+}
+
+.sidenav__buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidenav__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white; /* teks color */
+  background-color: black;
+  border: 0;
+  margin: 5px 10px 5px 10px; /* atas, kanan, bawah ,kiri */
+  padding: 10px 15px 10px 15px; /* atas, kanan, bawah ,kiri */
+  border-radius: 15px;
+  width: 100%;
+}
+
+.sidenav__button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.128); /* 0.128 agar jadi transparan */
+}
+
+.sidenav__button > span {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 10px; /* memberi jarak antara teks dan icon */
+}
+
+.sidenav__more {
+  position: fixed;
+  bottom: 3px; /* setting agar posisi selalu ada di bawah berjarak 3px */
+}

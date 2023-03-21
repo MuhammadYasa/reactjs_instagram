@@ -1,0 +1,52 @@
+.post {
+  width: 550px;
+  margin: 30px 40px 50px 40px; /* atas, kanan, bawah, kiri*/
+}
+
+.post__header {
+  display: flex;
+  justify-content: space-between; /* agar berjarak diantara konten yg lainnya di header post */
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post__headerAuthor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bolder;
+}
+
+/* mengambil timestamp atau waktu posting */
+.post__headerAuthor > span {
+  color: gray;
+  font-size: 15px;
+}
+
+/* setting size dari image post, agar sesuai size dari post */
+.post__image > img {
+  width: 100%;
+  border-radius: 6px;
+  border: 0.6px solid rgba(128, 128, 128, 0.516);
+}
+
+.post__footer {
+}
+
+.post__footerIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postIcon {
+  padding: 7px; /* jarak antara icon (like, komen, share) */
+  font-size: 30px;
+}
+
+/* cursor pada button */
+.postIcon:hover {
+  cursor: pointer;
+}
