@@ -1,4 +1,5 @@
-![Capture]( {https://raw.githubusercontent.com/MuhammadYasa/reactjs_instagram/master/Capture.PNG} )
+# preview
+![Capture](https://user-images.githubusercontent.com/66125818/226656204-1b30e153-84fa-4d20-a8e4-f3e6cbde6d83.PNG)
 
 # Getting Started with Create React App
 
