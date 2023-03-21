@@ -1,4 +1,4 @@
-![Capture.png]( {https://raw.githubusercontent.com/MuhammadYasa/reactjs_instagram/master/Capture.PNG} )
+![Capture]( {https://raw.githubusercontent.com/MuhammadYasa/reactjs_instagram/master/Capture.PNG} )
 
 # Getting Started with Create React App
 
